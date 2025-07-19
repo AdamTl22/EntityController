@@ -1,0 +1,3 @@
+/execute as @e[tag=spawner] at @s run summon armor_stand ~ ~ ~
+/summon minecraft:armor_stand ~ ~ ~
+/give Player621 minecraft:command_block

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "entitycontroller",
+  "version": "1.0.0",
+  "name": "Entity Controller",
+  "description": "Limits rendering of specific entities to reduce client-side lag.",
+  "authors": ["Adam"],
+  "contact": {
+    "sources": "https://github.com/yourgithub/entitycontroller"
+  },
+  "entrypoints": {
+    "main": [ "com.atl.entitycontroller.EntityControllerMod" ],
+    "client": [ "com.atl.entitycontroller.EntityControllerMod" ],
+    "modmenu": [ "com.atl.entitycontroller.config.ModMenuIntegration" ]
+  },
+  "mixins": [
+    "entitycontroller.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.x",
+    "fabric": "*",
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "custom": {
+    "modmenu:api": true
+  }
+}

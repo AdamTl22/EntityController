@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.atl.entitycontroller.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityRenderDispatcherMixin",
+    "WorldRenderLimiterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

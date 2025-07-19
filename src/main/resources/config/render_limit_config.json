@@ -1,0 +1,9 @@
+
+{
+  "maxRenderPerType": {
+    "minecraft:armor_stand": 5,
+    "minecraft:boat": 3,
+    "minecraft:minecart": 4
+  },
+  "renderRadius": 10.0
+}
